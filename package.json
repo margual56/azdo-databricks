@@ -1,5 +1,5 @@
 {
-  "name": "azdo-databricks",
+  "name": "cicd-databricks",
   "version": "0.1.0",
   "description": "A set of Pipeline tasks to help add DevOps practices to a Databricks development cycle.",
   "dependencies": {
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/azdo-databricks.git"
+    "url": "git+https://github.com/margual56/azdo-databricks.git"
   },
   "keywords": [
     "azdo",
@@ -44,7 +44,7 @@
   "author": "Microsoft DevLabs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/microsoft/azdo-databricks/issues"
+    "url": "https://github.com/margual56/azdo-databricks/issues"
   },
-  "homepage": "https://github.com/microsoft/azdo-databricks#readme"
+  "homepage": "https://github.com/margual56/azdo-databricks#readme"
 }
