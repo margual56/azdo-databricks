@@ -15,7 +15,7 @@ async function run() {
             tl.setResult(tl.TaskResult.Failed, 'The Workspace folder must start with a forward slash (/).')
         }
         
-        let importResult = tl.execSync("databricks", "workspace import_dir -o --profile AZDO \"" + notebooksFolderPath + "\" \"" + workspaceFolder);
+        let importResult = tl.execSync("databricks", "workspace import_dir -o --profile AZDO --language python --format SOURCE \"" + notebooksFolderPath + "\" \"" + workspaceFolder);
 
         if (importResult.code != 0) {
             console.error(importResult.stderr);
